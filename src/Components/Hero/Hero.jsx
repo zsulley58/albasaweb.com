@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="hero-text">
         <h1>Expert Web Development and Cybersecurity Solutions</h1>
         <p>
-          We build and protect your digital presence with innovative web
-          solutions tailored to your business needs.
+          We build and protect your digital presence with innovative web and
+          security solutions tailored to your business needs.
         </p>
         <button className="btn dark-btn">
           Explore more <img src={white_arrow} alt="" />
