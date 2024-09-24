@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import logo from "../../assets/albasa-web-logo.png";
@@ -43,7 +44,7 @@ const Navbar = () => {
           onMouseLeave={() => setShowServicesDropdown(false)}
         >
           <Link to="services" smooth={true} offset={-260} duration={500}>
-            Services
+            Our Services
           </Link>
 
           {/* Dropdown containing Cybersecurity and Web Development Services */}

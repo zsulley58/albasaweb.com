@@ -1,4 +1,5 @@
 /* General styling */
+/* General styling for the nav */
 nav {
   width: 100%;
   color: #fff;
@@ -14,6 +15,7 @@ nav {
 
 .logo {
   width: 180px;
+  cursor: pointer;
 }
 
 nav ul li {
@@ -21,6 +23,17 @@ nav ul li {
   list-style: none;
   margin: 5px 20px;
   font-size: 16px;
+  padding-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: red;
 }
 
 .dark-nav {
@@ -35,15 +48,19 @@ nav ul li {
 li .red-btn {
   background: red;
   color: #fff;
-  padding: 8px 15px;
+  padding: 10px 25px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   border: 0;
   outline: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+li .red-btn:hover {
+  background: #fff;
 }
 
 /* Dropdown styling */
