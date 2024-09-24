@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/albasa-web-logo.png";
 import menu_icon from "../../assets/menu-icon.png";
 import "./Navbar.css";
 
@@ -28,23 +28,28 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="program" smooth={true} offset={-260} duration={500}>
-            Program
-          </Link>
-        </li>
-        <li>
           <Link to="about" smooth={true} offset={-150} duration={500}>
             About us
           </Link>
         </li>
         <li>
-          <Link to="campus" smooth={true} offset={-260} duration={500}>
-            Campus{" "}
+          <Link to="services" smooth={true} offset={-260} duration={500}>
+            Services
           </Link>
         </li>
         <li>
-          <Link to="testimonials" smooth={true} offset={-260} duration={500}>
-            Testimonials
+          <Link to="portfolio" smooth={true} offset={-260} duration={500}>
+            Portfolios{" "}
+          </Link>
+        </li>
+        <li>
+          <Link to="blog" smooth={true} offset={-260} duration={500}>
+            Blogs
+          </Link>
+        </li>
+        <li>
+          <Link to="podcast" smooth={true} offset={-260} duration={500}>
+            Podcasts
           </Link>
         </li>
         <li>
@@ -53,7 +58,7 @@ const Navbar = () => {
             smooth={true}
             offset={-260}
             duration={500}
-            className="btn"
+            className="btn red-btn"
           >
             Contact us
           </Link>

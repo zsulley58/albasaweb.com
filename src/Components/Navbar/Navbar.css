@@ -32,6 +32,11 @@ nav ul li {
   display: none;
 }
 
+li .red-btn {
+  background-color: red;
+  color: #fff;
+}
+
 /* ----- media query ----- */
 
 @media (max-width: 1000px) {
