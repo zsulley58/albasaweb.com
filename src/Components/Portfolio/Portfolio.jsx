@@ -4,9 +4,9 @@ import gallery_2 from "../../assets/gallery-2.png";
 import gallery_3 from "../../assets/gallery-3.png";
 import gallery_4 from "../../assets/gallery-4.png";
 import white_arrow from "../../assets/white-arrow.png";
-import "./Campus.css";
+import "./Portfolio.css";
 
-const Campus = () => {
+const Portfolio = () => {
   return (
     <div className="campus">
       <div className="gallery">
@@ -22,4 +22,4 @@ const Campus = () => {
   );
 };
 
-export default Campus;
+export default Portfolio;
