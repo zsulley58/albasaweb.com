@@ -1,14 +1,14 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import about_img from "../../assets/about.png";
 import play_icon from "../../assets/play-icon.png";
+import video_img from "../../assets/video-img.png";
+import white_arrow from "../../assets/white-arrow.png";
 import "./About.css";
 
 const About = ({ setPlayState }) => {
   return (
     <div className="about">
       <div className="about-left">
-        <img src={about_img} alt="" className="about-img" />
+        <img src={video_img} alt="" className="video-img" />
         <img
           src={play_icon}
           alt=""
@@ -19,25 +19,34 @@ const About = ({ setPlayState }) => {
         />
       </div>
       <div className="about-right">
-        <h3>About University</h3>
-        <h2>Nurturing Tomorrow's Leaders Today</h2>
+        <h3>About Albasa Web</h3>
+        <h2>Expert Web Development and Cybersecurity Solutions</h2>
         <p>
-          Embark on a transformative educational journey with our university's
-          comprehensive education programs. Our cutting-edge curriculum is
-          designed to empower students with the knowledge, skills, and
-          experiences needed to excel in the dynamic field of education.
+          At Albasa Web, we are passionate about creating secure,
+          high-performing, and innovative digital solutions tailored to meet the
+          unique needs of our clients. With a strong foundation in web
+          development, penetration testing, cybersecurity, and a suite of other
+          web solutions, we are committed to helping businesses thrive in an
+          increasingly digital world.
         </p>
         <p>
-          With a focus on innovation, hands-on learning, and personalized
-          mentorship, our programs prepare aspiring educators to make a
-          meaningful impact in classrooms, schools, and communities.
+          Founded by a team of seasoned professionals, Albasa Web brings
+          together a wealth of experience in the tech industry. Our diverse team
+          of developers, cybersecurity experts, and web solution specialists
+          work collaboratively to deliver projects that exceed expectations. We
+          pride ourselves on staying ahead of industry trends, ensuring that our
+          clients benefit from the latest technologies and security practices.
         </p>
         <p>
-          Whether you aspire to become a teacher, administrator, counselor, or
-          educational leader, our diverse range of programs offers the perfect
-          pathway to achieve your goals and unlock your full potential in
-          shaping the future of education.
+          We believe in building long-term partnerships with our clients. Our
+          approach is rooted in understanding your business, your goals, and
+          your challenges. We listen carefully, plan strategically, and execute
+          flawlessly to deliver solutions that are not only effective but also
+          sustainable.
         </p>
+        <button className="btn dark-btn">
+          Learn more <img src={white_arrow} alt="" />
+        </button>
       </div>
     </div>
   );

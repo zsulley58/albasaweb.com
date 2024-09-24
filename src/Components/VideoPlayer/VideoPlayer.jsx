@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import video from "../../assets/college-video.mp4";
+import home_video from "../../assets/home-video.mp4";
 import "./VideoPlayer.css";
 
 const VideoPlayer = ({ playState, setPlayState }) => {
@@ -17,7 +17,7 @@ const VideoPlayer = ({ playState, setPlayState }) => {
       ref={player}
       onClick={closePlayer}
     >
-      <video src={video} autoPlay muted controls></video>
+      <video src={home_video} autoPlay muted controls></video>
     </div>
   );
 };
