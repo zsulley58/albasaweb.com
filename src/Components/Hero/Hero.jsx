@@ -1,19 +1,18 @@
 import React from "react";
-import dark_arrow from "../../assets/dark-arrow.png";
+import white_arrow from "../../assets/white-arrow.png";
 import "./Hero.css";
 
 const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero-text">
-        <h1>We Ensure better education for a better world</h1>
+        <h1>Expert Web Development and Cybersecurity Solutions</h1>
         <p>
-          Our cutting-edge curriculum is designed to empower students with
-          knowledge, skills, and experiences needed to excel in the dynamic
-          field of education.
+          We build and protect your digital presence with innovative web
+          solutions tailored to your business needs.
         </p>
-        <button className="btn">
-          Explore more <img src={dark_arrow} alt="" />
+        <button className="btn dark-btn">
+          Explore more <img src={white_arrow} alt="" />
         </button>
       </div>
     </div>
