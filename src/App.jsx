@@ -5,7 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Portfolio from "./Components/Portfolio/Portfolio";
-import Programs from "./Components/Programs/Programs";
+import Services from "./Components/Services/Services";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Title from "./Components/Title/Title";
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer";
@@ -19,11 +19,11 @@ const App = () => {
       <Hero />
       <div className="container">
         <Title subTitle="Our SERVICES" title="What we offer" />
-        <Programs />
+        <Services />
         <About setPlayState={setPlayState} />
-        <Title subTitle="Portfolio" title="Demos" />
+        <Title subTitle="Portfolio" title="Projects Demos" />
         <Portfolio />
-        <Title subTitle="Testimonials" title="What Student Says" />
+        <Title subTitle="Blogs" title="" />
         <Testimonials />
         <Title subTitle="Contact Us" title="Get in touch" />
         <Contact />

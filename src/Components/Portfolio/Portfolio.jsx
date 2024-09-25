@@ -1,24 +1,51 @@
 import React from "react";
-import gallery_1 from "../../assets/gallery-1.png";
-import gallery_2 from "../../assets/gallery-2.png";
-import gallery_3 from "../../assets/gallery-3.png";
-import gallery_4 from "../../assets/gallery-4.png";
+import portfolio_1 from "../../assets/portfolio-1.png";
+import portfolio_2 from "../../assets/portfolio-2.png";
+import portfolio_3 from "../../assets/portfolio-3.png";
+import portfolio_4 from "../../assets/portfolio-4.png";
 import white_arrow from "../../assets/white-arrow.png";
 import "./Portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div className="campus">
-      <div className="gallery">
-        <img src={gallery_1} alt="" />
-        <img src={gallery_2} alt="" />
-        <img src={gallery_3} alt="" />
-        <img src={gallery_4} alt="" />
+    <div className="portfolios">
+      <div className="portfolio-wrapper">
+        <div className="portfolio">
+          <img src={portfolio_1} alt="" />
+          <p>Agency Website</p>
+        </div>
+        <div className="portfolio">
+          <img src={portfolio_2} alt="" />
+          <p>Business Website</p>
+        </div>
+        <div className="portfolio">
+          <img src={portfolio_3} alt="" />
+          <p>Cybersecurity Vulnerability Assessment</p>
+        </div>
+        <div className="portfolio">
+          <img src={portfolio_4} alt="" />
+          <p>E-commerce Website</p>
+        </div>
       </div>
       <button className="btn dark-btn">
-        See more here <img src={white_arrow} alt="" />
+        Contact us for your project <img src={white_arrow} alt="" />
       </button>
     </div>
+    // <div className="portfolio">
+    //   <div className="gallery">
+    //     <img src={portfolio_1} alt="" />
+    //     <p>Agency Website</p>
+    //     <img src={portfolio_2} alt="" />
+    //     <p>Business Website</p>
+    //     <img src={portfolio_3} alt="" />
+    //     <p>Cybersecurity Vulnerability Assessment</p>
+    //     <img src={portfolio_4} alt="" />
+    //     <p>E-commerce Website</p>
+    //   </div>
+    //   <button className="btn dark-btn">
+    //     Contact us for your project <img src={white_arrow} alt="" />
+    //   </button>
+    // </div>
   );
 };
 
