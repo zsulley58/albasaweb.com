@@ -43,7 +43,7 @@ const Contact = () => {
           Feel free to reach out through contact form or find our contact
           information below. Your feedback, questions, and suggestions are
           important to us as we strive to provide exceptional service to our
-          university community.
+          Albasa community.
         </p>
         <ul>
           <li>
@@ -56,9 +56,9 @@ const Contact = () => {
           </li>
           <li>
             <img src={location_icon} alt="" />
-            77 Massachusetts Ave, Cambridge
+            Alajo Highways, Newtown.
             <br />
-            MA 12345, United States
+            Accra, Ghana
           </li>
         </ul>
       </div>
