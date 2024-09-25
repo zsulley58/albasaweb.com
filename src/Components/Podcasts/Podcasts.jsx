@@ -1,12 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React, { useRef } from "react";
 import back_icon from "../../assets/back-icon.png";
-import blog_1 from "../../assets/blog-1.png";
-import blog_2 from "../../assets/blog-2.png";
-import blog_3 from "../../assets/blog-3.png";
-import blog_4 from "../../assets/blog-4.png";
 import next_icon from "../../assets/next-icon.png";
+import podcast_1 from "../../assets/podcast-1.jpg";
+import podcast_2 from "../../assets/podcast-2.jpg";
+import podcast_3 from "../../assets/podcast-3.jpg";
+import podcast_4 from "../../assets/podcast-4.jpg";
 import "./Podcasts.css";
 
 const Podcasts = () => {
@@ -28,7 +27,7 @@ const Podcasts = () => {
   };
 
   return (
-    <div className="blogs">
+    <div className="podcasts">
       <img src={next_icon} alt="" className="next-btn" onClick={slideForward} />
       <img
         src={back_icon}
@@ -40,102 +39,86 @@ const Podcasts = () => {
         <ul ref={slider}>
           <li>
             <div className="slide">
-              <div className="blog-info">
-                <img src={blog_1} alt="" />
+              <div className="podcast-info">
+                <img src={podcast_1} alt="" />
                 <div>
-                  <h3>Top Web Development Trends to Watch in 2024</h3>
+                  <h3>What is Social Engineering?</h3>
                 </div>
               </div>
               <p>
-                The web development landscape is constantly evolving, with new
-                technologies, frameworks, and methodologies emerging every year.
-                As businesses strive to stay competitive and deliver exceptional
-                user experiences, staying up-to-date with the latest trends is
-                crucial. Here are the top web development trends to watch in
-                2024, which will shape how websites and applications are built
-                in the coming year.
+                Social engineering is a manipulation technique used by
+                cybercriminals to deceive individuals into divulging
+                confidential information, performing specific actions, or
+                granting unauthorized access to secure systems. Instead of
+                exploiting technical vulnerabilities, social engineering targets
+                human psychology, leveraging trust, fear, urgency, or curiosity
+                to trick victims into making mistakes.
                 <br />
                 <a href="#" className="links">
-                  Click here to read the full article.
+                  Click here to read listen to the full podcast.
                 </a>
               </p>
             </div>
           </li>
           <li>
             <div className="slide">
-              <div className="blog-info">
-                <img src={blog_2} alt="" />
+              <div className="podcast-info">
+                <img src={podcast_2} alt="" />
                 <div>
-                  <h3>The Benefits of Custom Web Development vs. Templates</h3>
+                  <h3>Securing Your Web Applications</h3>
                 </div>
               </div>
               <p>
-                In today’s digital era, having a website is a necessity for any
-                business looking to establish a strong online presence. However,
-                when it comes to building a website, you’re often faced with a
-                critical decision: Should you go for a custom web development
-                approach or use pre-built templates? Each option has its own
-                merits, but choosing the right one depends on your business
-                needs, goals, and resources. In this blog, we’ll dive into the
-                benefits of custom web development compared to using templates,
-                helping you make an informed decision about which path is best
-                for your business. <br />
+                Securing your web applications involves implementing strategies
+                and practices to protect your web applications from unauthorized
+                access, data breaches, and cyberattacks. Given that web
+                applications are often targeted by attackers due to their
+                accessibility over the internet, it’s crucial to incorporate
+                robust security measures from the development phase to
+                deployment and beyond. <br />
                 <a href="#" className="links">
-                  Click here to read the full article.
+                  Click here to read listen to the full podcast.
                 </a>
               </p>
             </div>
           </li>
           <li>
             <div className="slide">
-              <div className="blog-info">
-                <img src={blog_3} alt="" />
+              <div className="podcast-info">
+                <img src={podcast_3} alt="" />
                 <div>
-                  <h3>
-                    Common Cybersecurity Threats in 2024 and How to Protect Your
-                    Business
-                  </h3>
+                  <h3>Why Is My System Running Slow?</h3>
                 </div>
               </div>
               <p>
-                As technology continues to evolve, so do the tactics and
-                strategies used by cybercriminals. In 2024, cybersecurity
-                threats have become more sophisticated, targeting businesses of
-                all sizes across various industries. From ransomware attacks to
-                phishing scams, these threats can cause severe financial,
-                reputational, and operational damage to your organization if
-                left unaddressed. In this blog, we'll explore the most common
-                cybersecurity threats businesses face in 2024 and provide
-                actionable steps to protect your company from these dangers.{" "}
+                Your system may be running slow for several reasons, and
+                identifying the root cause can help you improve its performance.
+                Here are some common reasons why your system might be sluggish:
                 <br />
                 <a href="#" className="links">
-                  Click here to read the full article.
+                  Click here to read listen to the full podcast.
                 </a>
               </p>
             </div>
           </li>
           <li>
             <div className="slide">
-              <div className="blog-info">
-                <img src={blog_4} alt="" />
+              <div className="podcast-info">
+                <img src={podcast_4} alt="" />
                 <div>
-                  <h3>Cybersecurity Best Practices for Remote Work</h3>
+                  <h3>Emerging Cybersecurity Threats</h3>
                 </div>
               </div>
               <p>
-                Remote work has become a standard for many businesses around the
-                world, offering flexibility and efficiency. However, with this
-                convenience comes a new set of cybersecurity challenges. As more
-                employees access company networks and sensitive data from home
-                or other remote locations, the risk of cyber threats increases.
-                It’s essential for organizations to implement strong
-                cybersecurity measures to protect their data and maintain a
-                secure work environment. In this blog, we’ll explore the best
-                cybersecurity practices for remote work that both employees and
-                businesses should adopt to safeguard their digital assets.
+                Emerging cybersecurity threats refer to the latest and evolving
+                tactics used by cybercriminals to exploit vulnerabilities in
+                digital systems, networks, and data. As technology advances,
+                attackers adapt and create more sophisticated methods to bypass
+                security measures. Here’s a brief overview of some of the key
+                emerging cybersecurity threats:
                 <br />
                 <a href="#" className="links">
-                  Click here to read the full article.
+                  Click here to read listen to the full podcast.
                 </a>
               </p>
             </div>
