@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import About from "./Components/About/About";
 import Blogs from "./Components/Blogs/Blogs";

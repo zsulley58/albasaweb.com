@@ -49,9 +49,8 @@
 
 .slide img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 2px;
   display: block;
-  border: 5px solid red;
 }
 
 .blog-info {
@@ -82,17 +81,6 @@
   color: red;
   font-weight: 500;
 }
-
-/* .blog-info {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  font-size: 15px;
-}
-
-.blog-info h3 {
-  color: #212ea0;
-} */
 
 /* ----- media query ------ */
 @media (max-width: 800px) {

@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+
+/* eslint-disable react/no-unescaped-entities */
 import React, { useRef } from "react";
 import back_icon from "../../assets/back-icon.png";
 import blog_1 from "../../assets/blog-1.png";
@@ -51,7 +54,8 @@ const Blogs = () => {
                 user experiences, staying up-to-date with the latest trends is
                 crucial. Here are the top web development trends to watch in
                 2024, which will shape how websites and applications are built
-                in the coming year.{" "}
+                in the coming year.
+                <br />
                 <a href="#" className="links">
                   Click here to read the full article.
                 </a>
@@ -77,6 +81,7 @@ const Blogs = () => {
                 benefits of custom web development compared to using templates,
                 helping you make an informed decision about which path is best
                 for your business.
+                <br />
                 <a href="#" className="links">
                   Click here to read the full article.
                 </a>
@@ -100,10 +105,12 @@ const Blogs = () => {
                 threats have become more sophisticated, targeting businesses of
                 all sizes across various industries. From ransomware attacks to
                 phishing scams, these threats can cause severe financial,
-                reputational, and operational damage to your organization if
-                left unaddressed. In this blog, we'll explore the most common
+                reputational, and operational damage to your organization if //
+                eslint-disable-next-line react/no-unescaped-entities left
+                unaddressed. In this blog, we'll explore the most common
                 cybersecurity threats businesses face in 2024 and provide
                 actionable steps to protect your company from these dangers.
+                <br />
                 <a href="#" className="links">
                   Click here to read the full article.
                 </a>
@@ -129,6 +136,7 @@ const Blogs = () => {
                 secure work environment. In this blog, we’ll explore the best
                 cybersecurity practices for remote work that both employees and
                 businesses should adopt to safeguard their digital assets.
+                <br />
                 <a href="#" className="links">
                   Click here to read the full article.
                 </a>
