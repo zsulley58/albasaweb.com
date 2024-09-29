@@ -1,6 +1,7 @@
 import React from "react";
 import white_arrow from "../../assets/white-arrow.png";
 import Blogs from "../Blogs/Blogs";
+import Contact from "../Contact/Contact";
 import Podcasts from "../Podcasts/Podcasts";
 import Portfolio from "../Portfolio/Portfolio";
 import "./AboutPage.css";
@@ -21,7 +22,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <section className="about container">
+      <section className="about-page container">
         <h3>About us</h3>
         <h2>Expert Web Development and Cybersecurity Solutions</h2>
         <p>
@@ -83,6 +84,7 @@ const AboutPage = () => {
         <Portfolio />
         <Blogs />
         <Podcasts />
+        <Contact />
       </section>
     </>
   );
