@@ -9,6 +9,7 @@ import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Podcasts from "./Components/Podcasts/Podcasts";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import PortfoliosPage from "./Components/PortfoliosPage/PortfoliosPage";
 import Services from "./Components/Services/Services";
 import ServicesPage from "./Components/ServicesPage/ServicesPage";
 import Title from "./Components/Title/Title";
@@ -68,6 +69,17 @@ const App = () => {
           element={
             <div>
               <ServicesPage />
+              <Footer />
+            </div>
+          }
+        />
+
+        {/* Portfolio Page Route */}
+        <Route
+          path="/portfolio"
+          element={
+            <div>
+              <PortfoliosPage />
               <Footer />
             </div>
           }

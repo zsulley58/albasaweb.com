@@ -5,15 +5,15 @@ import blog_1 from "../../assets/blog-1.png";
 import blog_2 from "../../assets/blog-2.png";
 import blog_3 from "../../assets/blog-3.png";
 import blog_4 from "../../assets/blog-4.png";
-import "./ServicesSection.css";
+import "./PortfoliosSection.css";
 
-const ServicesSection = () => {
+const PortfoliosSection = () => {
   return (
-    <div className="services-sections">
+    <div className="portfolios-sections">
       {/* First 3 items */}
-      <ul className="top-services">
+      <ul className="top-portfolios">
         <li>
-          <div className="services-section-info">
+          <div className="portfolios-section-info">
             <img src={blog_1} alt="" />
             <div>
               <h3>Top Web Development Trends to Watch in 2024</h3>
@@ -29,7 +29,7 @@ const ServicesSection = () => {
           </p>
         </li>
         <li>
-          <div className="services-section-info">
+          <div className="portfolios-section-info">
             <img src={blog_2} alt="" />
             <div>
               <h3>The Benefits of Custom Web Development vs. Templates</h3>
@@ -45,7 +45,7 @@ const ServicesSection = () => {
           </p>
         </li>
         <li>
-          <div className="services-section-info">
+          <div className="portfolios-section-info">
             <img src={blog_3} alt="" />
             <div>
               <h3>
@@ -66,9 +66,9 @@ const ServicesSection = () => {
       </ul>
 
       {/* Remaining items */}
-      <ul className="bottom-services">
+      <ul className="bottom-portfolios">
         <li>
-          <div className="services-section-info">
+          <div className="portfolios-section-info">
             <img src={blog_4} alt="" />
             <div>
               <h3>Cybersecurity Best Practices for Remote Work</h3>
@@ -84,7 +84,7 @@ const ServicesSection = () => {
           </p>
         </li>
         <li>
-          <div className="services-section-info">
+          <div className="portfolios-section-info">
             <img src={blog_4} alt="" />
             <div>
               <h3>Cybersecurity Best Practices for Remote Work</h3>
@@ -100,7 +100,7 @@ const ServicesSection = () => {
           </p>
         </li>
         <li>
-          <div className="services-section-info">
+          <div className="portfolios-section-info">
             <img src={blog_4} alt="" />
             <div>
               <h3>Cybersecurity Best Practices for Remote Work</h3>
@@ -116,7 +116,7 @@ const ServicesSection = () => {
           </p>
         </li>
         <li>
-          <div className="services-section-info">
+          <div className="portfolios-section-info">
             <img src={blog_4} alt="" />
             <div>
               <h3>Cybersecurity Best Practices for Remote Work</h3>
@@ -132,7 +132,7 @@ const ServicesSection = () => {
           </p>
         </li>
         <li>
-          <div className="services-section-info">
+          <div className="portfolios-section-info">
             <img src={blog_4} alt="" />
             <div>
               <h3>Cybersecurity Best Practices for Remote Work</h3>
@@ -152,4 +152,4 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default PortfoliosSection;

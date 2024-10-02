@@ -1,24 +1,25 @@
 import React, { useRef } from "react";
 import arrow_down from "../../assets/arrow-down.png";
 import Contact from "../Contact/Contact";
-import Portfolio from "../Portfolio/Portfolio";
-import "./ServicesPage.css";
-import ServicesSection from "./ServicesSection";
+import "./PortfoliosPage.css";
+import PortfoliosSection from "./PortfoliosSection";
 
-const ServicesPage = () => {
-  // Create a reference to the services section
-  const servicesRef = useRef(null);
+const PortfoliosPage = () => {
+  // Create a reference to the portfolios section
+  const portfoliosRef = useRef(null);
 
   // Function to handle smooth scrolling
   const handleScroll = () => {
-    servicesRef.current.scrollIntoView({ behavior: "smooth" });
+    if (portfoliosRef.current) {
+      portfoliosRef.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <>
-      {/* SERVICE HERO SECTION */}
-      <section className="service-hero container">
-        <div className="service-hero-text">
+      {/* PORTFOLIO HERO SECTION */}
+      <section className="portfolio-hero container">
+        <div className="portfolio-hero-text">
           <h1>
             We Offer Professional Web Development & Cybersecurity Services
           </h1>
@@ -35,18 +36,17 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      {/* SERVICES SECTION */}
-      <div ref={servicesRef} className="services-section">
-        <ServicesSection />
+      {/* PORTFOLIOS SECTION */}
+      <div ref={portfoliosRef} className="portfolios-section">
+        <PortfoliosSection />
       </div>
 
-      {/* SERVICES BOTTOM SECTION */}
-      <section className="bottom-about container">
-        <Portfolio />
+      {/* BOTTOM SECTION */}
+      <section className="bottom-section container">
         <Contact />
       </section>
     </>
   );
 };
 
-export default ServicesPage;
+export default PortfoliosPage;
