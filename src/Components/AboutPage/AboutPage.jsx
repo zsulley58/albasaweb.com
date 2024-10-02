@@ -9,8 +9,8 @@ import "./AboutPage.css";
 const AboutPage = () => {
   return (
     <>
-      <section className="hero container">
-        <div className="hero-text">
+      <section className="about-hero container">
+        <div className="about-hero-text">
           <h1>Expert Web Development and Cybersecurity Solutions</h1>
           <p>
             We build and protect your digital presence with innovative web and

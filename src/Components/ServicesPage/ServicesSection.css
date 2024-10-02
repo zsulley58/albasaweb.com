@@ -1,0 +1,111 @@
+/* Container styling */
+.services-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f7f8fa; /* Light background color */
+}
+
+/* Grid container for top and bottom services */
+.top-services,
+.bottom-services {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Responsive grid columns */
+  gap: 24px; /* Space between grid items */
+  width: 100%;
+  max-width: 1200px; /* Constrain overall width */
+  margin-bottom: 40px; /* Space between top and bottom sections */
+  padding: 0; /* Remove default padding */
+  list-style: none; /* Remove default list styling */
+}
+
+/* Individual service item styling */
+.top-services li,
+.bottom-services li {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Modern shadow effect */
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; /* Ensure padding is included in total width/height */
+}
+
+.services-section-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services-section-info img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Smooth rounded corners */
+  margin-bottom: 10px;
+  transition: transform 0.3s; /* Smooth hover zoom */
+}
+
+.services-section-info h3 {
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  margin: 0;
+  transition: color 0.3s; /* Hover effect transition */
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-top: auto; /* Push paragraph to the bottom */
+}
+
+.links {
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.links:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+/* Hover Effects */
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.services-section-info img:hover {
+  transform: scale(1.05); /* Image zoom effect */
+}
+
+.services-section-info h3:hover {
+  color: #007bff; /* Heading color change on hover */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 600px) {
+  .services-sections {
+    padding: 20px 10px;
+  }
+
+  .services-section-info h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

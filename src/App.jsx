@@ -10,6 +10,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Podcasts from "./Components/Podcasts/Podcasts";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Services from "./Components/Services/Services";
+import ServicesPage from "./Components/ServicesPage/ServicesPage";
 import Title from "./Components/Title/Title";
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer";
 
@@ -56,6 +57,17 @@ const App = () => {
           element={
             <div>
               <AboutPage />
+              <Footer />
+            </div>
+          }
+        />
+
+        {/* Service Page Route */}
+        <Route
+          path="/services"
+          element={
+            <div>
+              <ServicesPage />
               <Footer />
             </div>
           }
