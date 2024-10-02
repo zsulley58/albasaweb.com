@@ -1,5 +1,4 @@
 /* General styling */
-/* General styling for the nav */
 nav {
   width: 100%;
   color: #fff;
@@ -24,6 +23,7 @@ nav ul li {
   margin: 5px 20px;
   font-size: 16px;
   padding-bottom: 10px;
+  position: relative; /* Needed for dropdown positioning */
 }
 
 nav ul li a {
@@ -34,6 +34,10 @@ nav ul li a {
 
 nav ul li a:hover {
   color: red;
+}
+
+nav ul li a.active {
+  border-bottom: 2px solid red;
 }
 
 .dark-nav {
@@ -71,7 +75,7 @@ li .red-btn:hover {
 .services-dropdown {
   position: absolute;
   top: 100%; /* Align dropdown below the Services nav item */
-  left: 100;
+  left: 0;
   width: 600px; /* Adjust the width as needed */
   background-color: #000;
   display: flex;
@@ -118,7 +122,10 @@ li .red-btn:hover {
   color: red;
 }
 
-/* Responsive design adjustments */
+.sub-services li a.active {
+  border-bottom: 1px solid red;
+}
+
 @media (max-width: 1000px) {
   .logo {
     width: 140px;
