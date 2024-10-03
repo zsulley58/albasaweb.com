@@ -1,8 +1,6 @@
 import React, { useRef } from "react";
 import arrow_down from "../../assets/arrow-down.png";
-import Blogs from "../Blogs/Blogs";
 import Contact from "../Contact/Contact";
-import Podcasts from "../Podcasts/Podcasts";
 import Portfolio from "../Portfolio/Portfolio";
 import "./ServicesPage.css";
 import ServicesSection from "./ServicesSection";
@@ -45,8 +43,6 @@ const ServicesPage = () => {
       {/* SERVICES BOTTOM SECTION */}
       <section className="bottom-about container">
         <Portfolio />
-        <Blogs />
-        <Podcasts />
         <Contact />
       </section>
     </>

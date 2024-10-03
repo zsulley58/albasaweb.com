@@ -1,5 +1,5 @@
 /* Container styling */
-.services-sections {
+.portfolios-sections {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,8 +8,8 @@
 }
 
 /* Grid container for top and bottom services */
-.top-services,
-.bottom-services {
+.top-portfolios,
+.bottom-portfolios {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
@@ -21,8 +21,8 @@
 }
 
 /* Individual service item styling */
-.top-services li,
-.bottom-services li {
+.top-portfolios li,
+.bottom-portfolios li {
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Modern shadow effect */
@@ -34,7 +34,7 @@
   box-sizing: border-box; /* Ensure padding is included in total width/height */
 }
 
-.services-section-info {
+.portfolios-section-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +42,7 @@
   font-size: 18px;
 }
 
-.services-section-info img {
+.portfolios-section-info img {
   max-width: 100%;
   height: auto;
   border-radius: 8px; /* Smooth rounded corners */
@@ -50,7 +50,7 @@
   transition: transform 0.3s; /* Smooth hover zoom */
 }
 
-.services-section-info h3 {
+.portfolios-section-info h3 {
   color: #333;
   font-size: 18px;
   text-align: center;
@@ -86,21 +86,21 @@ li:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.services-section-info img:hover {
+.portfolios-section-info img:hover {
   transform: scale(1.05);
 }
 
-.services-section-info h3:hover {
+.portfolios-section-info h3:hover {
   color: red;
 }
 
 /* Responsive Design Adjustments */
 @media (max-width: 600px) {
-  .services-sections {
+  .portfolios-sections {
     padding: 20px 10px;
   }
 
-  .services-section-info h3 {
+  .portfolios-section-info h3 {
     font-size: 16px;
   }
 
