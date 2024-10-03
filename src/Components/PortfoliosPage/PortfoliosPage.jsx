@@ -20,15 +20,19 @@ const PortfoliosPage = () => {
       {/* PORTFOLIO HERO SECTION */}
       <section className="portfolio-hero container">
         <div className="portfolio-hero-text">
-          <h1>
-            We Offer Professional Web Development & Cybersecurity Services
-          </h1>
+          <h1>Our Professional Web Development & Cybersecurity Portfolios</h1>
+          <h2>Elevate Your Digital Presence with Confidence</h2>
           <p>
-            We provide professional web development and cybersecurity services,
-            ensuring modern, responsive websites with clean code while
-            protecting your digital assets. Our expertise combines innovative
-            design with top-tier security to safeguard your brand and drive
-            success.
+            Welcome to our world of professional web development and
+            cybersecurity excellence. Our portfolios showcase a blend of
+            innovative web solutions and robust cybersecurity strategies
+            designed to propel your business forward.
+          </p>
+          <p>
+            Discover how we create engaging, user-friendly websites while
+            ensuring your digital assets are protected against evolving cyber
+            threats. Let us help you build a secure and impactful online
+            presence.
           </p>
           <button className="btn dark-btn" onClick={handleScroll}>
             Explore more <img src={arrow_down} alt="Explore more" />
