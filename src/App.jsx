@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import About from "./Components/About/About";
 import AboutPage from "./Components/AboutPage/AboutPage";
 import Blogs from "./Components/Blogs/Blogs";
+import BlogsPage from "./Components/BlogsPage/BlogsPage";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
@@ -80,6 +81,17 @@ const App = () => {
           element={
             <div>
               <PortfoliosPage />
+              <Footer />
+            </div>
+          }
+        />
+
+        {/* Blog Page Route */}
+        <Route
+          path="/blog"
+          element={
+            <div>
+              <BlogsPage />
               <Footer />
             </div>
           }

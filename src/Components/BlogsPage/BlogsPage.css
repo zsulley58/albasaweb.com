@@ -1,8 +1,9 @@
-.hero {
+/* ---- HERO SECTION STYLES ---- */
+.blog-hero {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../../assets/home-page-hero.jpg");
+    url("../../assets/blog-page-hero.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -12,38 +13,18 @@
   text-align: center;
 }
 
-.hero-text {
+.blog-hero-text {
   max-width: 800px;
 }
 
-.hero-text h1 {
+.blog-hero-text h1 {
   font-size: 60px;
   font-weight: 600;
 }
 
-.hero-text p {
+.blog-hero-text p {
   font-size: 20px;
   line-height: 1.4;
   margin: 10px auto;
   color: #fd7272;
-}
-
-/* ------ media query ------ */
-
-@media (max-width: 850px) {
-  .hero-text h1 {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 650px) {
-  .hero-text h1 {
-    font-size: 30px;
-    max-width: 400px;
-    margin: auto;
-  }
-  .hero-text p {
-    font-size: 14px;
-    margin: 15px auto 30px;
-  }
 }
