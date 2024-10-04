@@ -2,7 +2,7 @@
 .service-hero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("../../assets/service-page-hero.jpg");
   background-size: cover;
   background-position: center;
@@ -26,6 +26,6 @@
   font-size: 20px;
   line-height: 1.4;
   margin: 10px auto;
-  color: #eaeaea;
+  color: #54b7fd;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
