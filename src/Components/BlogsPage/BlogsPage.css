@@ -1,9 +1,9 @@
 /* ---- HERO SECTION STYLES ---- */
-.service-hero {
+.blog-hero {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../../assets/service-page-hero.jpg");
+    url("../../assets/blog-page-hero.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -13,16 +13,16 @@
   text-align: center;
 }
 
-.service-hero-text {
+.blog-hero-text {
   max-width: 800px;
 }
 
-.service-hero-text h1 {
+.blog-hero-text h1 {
   font-size: 60px;
   font-weight: 600;
 }
 
-.service-hero-text p {
+.blog-hero-text p {
   font-size: 20px;
   line-height: 1.4;
   margin: 10px auto;
