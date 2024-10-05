@@ -59,11 +59,11 @@
   transition: color 0.3s; /* Hover effect transition */
 }
 
-.blog-description {
+p {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
-  margin-top: auto; /* Ensure paragraph stays at the top */
+  margin-top: auto; /* Push paragraph to the bottom */
 }
 
 .links {
@@ -104,7 +104,7 @@ li:hover {
     font-size: 16px;
   }
 
-  .blog-description {
+  p {
     font-size: 14px;
   }
 }

@@ -1,5 +1,6 @@
-import React from "react";
-import white_arrow from "../../assets/white-arrow.png";
+import React, { useRef } from "react";
+import arrow_down from "../../assets/arrow-down.png";
+import white_arrow from "../../assets/white-arrow.png"; // Importing white_arrow
 import Blogs from "../Blogs/Blogs";
 import Contact from "../Contact/Contact";
 import Podcasts from "../Podcasts/Podcasts";
@@ -7,6 +8,16 @@ import Portfolio from "../Portfolio/Portfolio";
 import "./AboutPage.css";
 
 const AboutPage = () => {
+  // Create a reference to the portfolios section
+  const portfoliosRef = useRef(null);
+
+  // Function to handle smooth scrolling
+  const handleScroll = () => {
+    if (portfoliosRef.current) {
+      portfoliosRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <section className="about-hero container">
@@ -16,13 +27,13 @@ const AboutPage = () => {
             We build and protect your digital presence with innovative web and
             security solutions tailored to your business needs.
           </p>
-          <button className="btn dark-btn">
-            Explore more <img src={white_arrow} alt="Explore more" />
+          <button className="btn dark-btn" onClick={handleScroll}>
+            Explore more <img src={arrow_down} alt="Explore more" />
           </button>
         </div>
       </section>
 
-      <section className="about-page container">
+      <section className="about-page container" ref={portfoliosRef}>
         <h3>About us</h3>
         <h2>Expert Web Development and Cybersecurity Solutions</h2>
         <p>
