@@ -4,7 +4,11 @@ import React from "react";
 import podcast_1 from "../../assets/podcast-images/podcasts-1.jpg";
 import podcast_2 from "../../assets/podcast-images/podcasts-2.jpg";
 import podcast_3 from "../../assets/podcast-images/podcasts-3.jpg";
-import podcast_4 from "../../assets/podcasts-4.jpg";
+import {
+  default as podcast_4,
+  default as podcast_6,
+} from "../../assets/podcast-images/podcasts-4.jpg";
+import podcast_5 from "../../assets/podcast-images/podcasts-5.jpg";
 import "./PodcastsSection.css";
 
 const PodcastsSection = () => {
@@ -14,13 +18,11 @@ const PodcastsSection = () => {
       <ul className="top-podcasts">
         <li>
           <div className="podcasts-section-info">
-            <img src={podcast_1} alt="" />
-            <div>
-              <h3>
-                The $230 million crypto handbag heist, and misinformation on
-                social media
-              </h3>
-            </div>
+            <img src={podcast_1} alt="Podcast 1" />
+            <h3>
+              The $230 million crypto handbag heist, and misinformation on
+              social media
+            </h3>
           </div>
           <p>
             Two men are accused of stealing almost a quarter of a billion
@@ -33,6 +35,7 @@ const PodcastsSection = () => {
               href="https://player.captivate.fm/episode/3fcc0ad1-8df4-4e5b-8b0a-3aa01af80140"
               className="links btn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Click here to listen to the full podcast.
             </a>
@@ -40,10 +43,8 @@ const PodcastsSection = () => {
         </li>
         <li>
           <div className="podcasts-section-info">
-            <img src={podcast_2} alt="" />
-            <div>
-              <h3>Jim Hates Scams</h3>
-            </div>
+            <img src={podcast_2} alt="Podcast 2" />
+            <h3>Jim Hates Scams</h3>
           </div>
           <p>
             Jim Browning has dedicated himself to combatting scammers, taking a
@@ -59,6 +60,7 @@ const PodcastsSection = () => {
               href="https://darknetdiaries.com/episode/143/"
               className="links btn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Click here to listen to the full podcast.
             </a>
@@ -66,10 +68,8 @@ const PodcastsSection = () => {
         </li>
         <li>
           <div className="podcasts-section-info">
-            <img src={podcast_3} alt="" />
-            <div>
-              <h3>Axact</h3>
-            </div>
+            <img src={podcast_3} alt="Podcast 3" />
+            <h3>Axact</h3>
           </div>
           <p>
             Axact sells fake diplomas and degrees. What could go wrong with this
@@ -79,6 +79,7 @@ const PodcastsSection = () => {
               href="https://darknetdiaries.com/episode/142/"
               className="links btn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Click here to listen to the full podcast.
             </a>
@@ -89,84 +90,73 @@ const PodcastsSection = () => {
       <ul className="bottom-podcasts">
         <li>
           <div className="podcasts-section-info">
-            <img src={podcast_4} alt="" />
-            <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
-            </div>
+            <img src={podcast_4} alt="Podcast 4" />
+            <h3>Password Manager Injection Attacks</h3>
           </div>
           <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
+            Password Manager Injection Attacks occur when malicious actors
+            exploit vulnerabilities in password managers to automatically fill
+            login fields with stored credentials on phishing sites. By injecting
+            harmful scripts or manipulating autofill features, attackers trick
+            password managers into divulging sensitive information like
+            usernames and passwords without user consent. This type of attack
+            targets the trust users place in their password managers,
+            emphasizing the importance of vigilance, proper configuration, and
+            using two-factor authentication for added security...
             <br />
-            <a href="#" className="links btn">
+            <a
+              href="https://twit.tv/shows/security-now/episodes/992?autostart=false"
+              className="links btn"
+              target="_blank"
+            >
               Click here to read the full article.
             </a>
           </p>
         </li>
         <li>
           <div className="podcasts-section-info">
-            <img src={podcast_4} alt="" />
-            <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
-            </div>
+            <img src={podcast_5} alt="Podcast 5" />
+            <h3>Things To Do With Your New iPhone 16</h3>
           </div>
           <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
+            Dive into the exciting world of new iPhone features with Mikah
+            Sargent and Rosemary Orchard! This week, they explore the latest
+            additions to iOS, including:...
             <br />
-            <a href="#" className="links btn">
+            <a
+              href="https://twit.tv/shows/ios-today/episodes/722?autostart=false"
+              className="links btn"
+              target="_blank"
+            >
               Click here to read the full article.
             </a>
           </p>
         </li>
         <li>
           <div className="podcasts-section-info">
-            <img src={podcast_4} alt="" />
-            <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
-            </div>
+            <img src={podcast_6} alt="Podcast 6" />
+            <h3>Is Telegram an Encrypted App?</h3>
           </div>
           <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
+            Telegram is often marketed as a secure messaging app, but its
+            encryption practices have faced criticism. By default, Telegram does
+            not enable end-to-end encryption for regular chats, instead relying
+            on a proprietary client-server encryption method (MTProto). This
+            means that while your messages are encrypted in transit, Telegram's
+            servers can technically decrypt and access them. Full end-to-end
+            encryption is only available in Secret Chats, which users must
+            manually enable....
             <br />
-            <a href="#" className="links btn">
+            <a
+              href="https://twit.tv/shows/security-now/episodes/990?autostart=false"
+              className="links btn"
+              target="_blank"
+            >
               Click here to read the full article.
             </a>
           </p>
         </li>
-        <li>
-          <div className="podcasts-section-info">
-            <img src={podcast_4} alt="" />
-            <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
-            </div>
-          </div>
-          <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
-        </li>
-        <li>
-          <div className="podcasts-section-info">
-            <img src={podcast_4} alt="" />
-            <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
-            </div>
-          </div>
-          <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
-        </li>
+        {/* More podcast items can be added here in a similar manner */}
       </ul>
     </div>
   );

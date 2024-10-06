@@ -7,7 +7,7 @@
   background-color: #f7f8fa; /* Light background color */
 }
 
-/* Grid container for top and bottom services */
+/* Grid container for top and bottom podcasts */
 .top-podcasts,
 .bottom-podcasts {
   display: grid;
@@ -20,7 +20,7 @@
   list-style: none;
 }
 
-/* Individual service item styling */
+/* Individual podcast item styling */
 .top-podcasts li,
 .bottom-podcasts li {
   background-color: #ffffff;
@@ -31,7 +31,9 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* Ensures the button stays at the bottom */
   box-sizing: border-box; /* Ensure padding is included in total width/height */
+  height: 100%;
 }
 
 .podcasts-section-info {
@@ -63,18 +65,21 @@ p {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
-  margin-bottom: auto; /* Push paragraph to the bottom */
+  margin-bottom: 15px; /* Add some space between paragraph and button */
+  flex-grow: 1; /* Allows the paragraph to take available space */
 }
 
 p a {
-}
-
-.links {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #007bff; /* Default button color */
   color: #fff;
   font-weight: 600;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
   border-radius: 5px;
+  align-self: flex-end; /* Aligns button to the end of the container */
 }
 
 .links:hover {
