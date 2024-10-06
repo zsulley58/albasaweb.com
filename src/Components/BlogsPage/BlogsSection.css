@@ -59,6 +59,116 @@
   transition: color 0.3s; /* Hover effect transition */
 }
 
+p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-top: auto; /* Push paragraph to the bottom */
+}
+
+.links {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+  border-radius: 5px;
+}
+
+.links:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+/* Hover Effects */
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blogs-section-info img:hover {
+  transform: scale(1.05);
+}
+
+.blogs-section-info h3:hover {
+  color: red;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 600px) {
+  .blogs-sections {
+    padding: 20px 10px;
+  }
+
+  .blogs-section-info h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+/* Container styling */
+.blogs-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f7f8fa; /* Light background color */
+}
+
+/* Grid container for top and bottom services */
+.top-blogs,
+.bottom-blogs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+/* Individual service item styling */
+.top-blogs li,
+.bottom-blogs li {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Modern shadow effect */
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; /* Ensure padding is included in total width/height */
+}
+
+.blogs-section-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.blogs-section-info img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Smooth rounded corners */
+  margin-bottom: 10px;
+  transition: transform 0.3s; /* Smooth hover zoom */
+}
+
+.blogs-section-info h3 {
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  margin: 0;
+  transition: color 0.3s; /* Hover effect transition */
+}
+
 .blog-description {
   color: #666;
   line-height: 1.6;

@@ -2,7 +2,7 @@
 .blog-hero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75)),
     url("../../assets/blog-page-hero.jpg");
   background-size: cover;
   background-position: center;
