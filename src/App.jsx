@@ -30,9 +30,10 @@ const App = () => {
             <div>
               <Hero />
               <div className="container">
+                <About setPlayState={setPlayState} />
                 <Title subTitle="Our SERVICES" title="What we offer" />
                 <Services />
-                <About setPlayState={setPlayState} />
+
                 <Title subTitle="Portfolio" title="Projects Demos" />
                 <Portfolio />
                 <Title

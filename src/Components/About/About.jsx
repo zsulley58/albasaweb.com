@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import play_icon from "../../assets/play-icon.png";
 import video_img from "../../assets/video-img.png";
 import white_arrow from "../../assets/white-arrow.png";
@@ -44,9 +45,9 @@ const About = ({ setPlayState }) => {
           flawlessly to deliver solutions that are not only effective but also
           sustainable.
         </p>
-        <button className="btn dark-btn">
-          Learn more <img src={white_arrow} alt="" />
-        </button>
+        <Link to="/about" className="btn dark-btn">
+          Learn more <img src={white_arrow} alt="Learn more" />
+        </Link>
       </div>
     </div>
   );
