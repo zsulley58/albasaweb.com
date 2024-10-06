@@ -6,12 +6,12 @@ import PodcastsSection from "./PodcastsSection";
 
 const PodcastsPage = () => {
   // Create a reference to the Podcasts section
-  const PodcastsRef = useRef(null);
+  const podcastsRef = useRef(null); // Changed to camelCase for convention
 
   // Function to handle smooth scrolling
   const handleScroll = () => {
-    if (PodcastsRef.current) {
-      PodcastsRef.current.scrollIntoView({ behavior: "smooth" });
+    if (podcastsRef.current) {
+      podcastsRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -45,8 +45,10 @@ const PodcastsPage = () => {
         </div>
       </section>
 
-      {/* PodcastS SECTION */}
-      <div ref={PodcastsRef} className="podcasts-section">
+      {/* Podcasts SECTION */}
+      <div ref={podcastsRef} className="podcasts-section">
+        {" "}
+        {/* Changed ref name to camelCase */}
         <PodcastsSection />
       </div>
 

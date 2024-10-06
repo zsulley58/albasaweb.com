@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import arrow_down from "../../assets/arrow-down.png";
-import white_arrow from "../../assets/white-arrow.png"; // Importing white_arrow
+import white_arrow from "../../assets/white-arrow.png";
 import Blogs from "../Blogs/Blogs";
 import Contact from "../Contact/Contact";
 import Podcasts from "../Podcasts/Podcasts";
