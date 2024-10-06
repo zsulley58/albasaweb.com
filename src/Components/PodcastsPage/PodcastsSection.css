@@ -63,7 +63,10 @@ p {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
-  margin-top: auto; /* Push paragraph to the bottom */
+  margin-bottom: auto; /* Push paragraph to the bottom */
+}
+
+p a {
 }
 
 .links {
