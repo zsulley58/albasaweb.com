@@ -1,10 +1,13 @@
 /* eslint-disable no-unused-vars */
 
 import React from "react";
-import blog_1 from "../../assets/blog-1.png";
-import blog_2 from "../../assets/blog-2.png";
-import blog_3 from "../../assets/blog-3.png";
-import blog_4 from "../../assets/blog-4.png";
+import portfolio_1 from "../../assets/portfolio-images/portfolio-1.jpg";
+import portfolio_2 from "../../assets/portfolio-images/portfolio-2.jpg";
+import portfolio_3 from "../../assets/portfolio-images/portfolio-3.jpg";
+import portfolio_4 from "../../assets/portfolio-images/portfolio-4.jpg";
+import portfolio_5 from "../../assets/portfolio-images/portfolio-5.jpg";
+import portfolio_6 from "../../assets/portfolio-images/portfolio-6.jpg";
+import Contact from "../Contact/Contact";
 import "./PortfoliosSection.css";
 
 const PortfoliosSection = () => {
@@ -14,54 +17,36 @@ const PortfoliosSection = () => {
       <ul className="top-portfolios">
         <li>
           <div className="portfolios-section-info">
-            <img src={blog_1} alt="" />
+            <img src={portfolio_1} alt="" />
             <div>
-              <h3>Top Web Development Trends to Watch in 2024</h3>
+              <h3>Personal Portfolio Website</h3>
             </div>
           </div>
-          <p>
-            The web development landscape is constantly evolving, with new
-            technologies, frameworks, and methodologies emerging every year...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
+          <a href="#" className="portfolio-links btn">
+            Contact Us.
+          </a>
         </li>
         <li>
           <div className="portfolios-section-info">
-            <img src={blog_2} alt="" />
+            <img src={portfolio_2} alt="" />
             <div>
-              <h3>The Benefits of Custom Web Development vs. Templates</h3>
+              <h3>E-commerce Website</h3>
             </div>
           </div>
-          <p>
-            In today’s digital era, having a website is a necessity for any
-            business looking to establish a strong online presence...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
+          <a href="#" className="portfolio-links btn">
+            Contact Us.
+          </a>
         </li>
         <li>
           <div className="portfolios-section-info">
-            <img src={blog_3} alt="" />
+            <img src={portfolio_3} alt="" />
             <div>
-              <h3>
-                Common Cybersecurity Threats in 2024 and How to Protect Your
-                Business
-              </h3>
+              <h3>E-commerce Shopping Website</h3>
             </div>
           </div>
-          <p>
-            As technology continues to evolve, so do the tactics and strategies
-            used by cybercriminals...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
+          <a href="#" className="links btn">
+            Contact Us.
+          </a>
         </li>
       </ul>
 
@@ -69,83 +54,36 @@ const PortfoliosSection = () => {
       <ul className="bottom-portfolios">
         <li>
           <div className="portfolios-section-info">
-            <img src={blog_4} alt="" />
+            <img src={portfolio_4} alt="" />
             <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
+              <h3>Mobile App Development</h3>
             </div>
           </div>
-          <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
+          <a href="#" className="portfolio-links btn">
+            Contact Us.
+          </a>
         </li>
         <li>
           <div className="portfolios-section-info">
-            <img src={blog_4} alt="" />
+            <img src={portfolio_5} alt="" />
             <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
+              <h3>SEO Optimization</h3>
             </div>
           </div>
-          <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
+          <a href="#" className="portfolio-links btn">
+            Contact Us.
+          </a>
         </li>
         <li>
           <div className="portfolios-section-info">
-            <img src={blog_4} alt="" />
+            <img src={portfolio_6} alt="" />
             <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
+              <h3>Content Management Systems</h3>
             </div>
           </div>
-          <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
-        </li>
-        <li>
-          <div className="portfolios-section-info">
-            <img src={blog_4} alt="" />
-            <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
-            </div>
-          </div>
-          <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
-        </li>
-        <li>
-          <div className="portfolios-section-info">
-            <img src={blog_4} alt="" />
-            <div>
-              <h3>Cybersecurity Best Practices for Remote Work</h3>
-            </div>
-          </div>
-          <p>
-            Remote work has become a standard for many businesses around the
-            world, offering flexibility and efficiency...
-            <br />
-            <a href="#" className="links btn">
-              Click here to read the full article.
-            </a>
-          </p>
+          <a href={<Contact />} className="portfolio-links btn">
+            Contact Us.
+          </a>
         </li>
       </ul>
     </div>

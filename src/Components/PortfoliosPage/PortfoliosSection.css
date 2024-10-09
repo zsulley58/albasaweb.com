@@ -59,14 +59,16 @@
   transition: color 0.3s; /* Hover effect transition */
 }
 
-p {
+.portfolio-links p {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
-  margin-top: auto; /* Push paragraph to the bottom */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.links {
+.portfolio-links {
   color: #fff;
   font-weight: 600;
   text-decoration: none;
@@ -74,7 +76,7 @@ p {
   border-radius: 5px;
 }
 
-.links:hover {
+.portfolio-links:hover {
   color: #fff;
   text-decoration: none;
   background-color: #000;
