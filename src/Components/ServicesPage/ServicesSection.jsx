@@ -1,13 +1,17 @@
 /* eslint-disable no-unused-vars */
 
 import React from "react";
-import blog_2 from "../../assets/blog-2.png";
-import blog_3 from "../../assets/blog-3.png";
 import blog_4 from "../../assets/blog-4.png";
 import cms from "../../assets/services-images/cms-image.jpg";
 import e_commerce from "../../assets/services-images/e-commerce-image.jpg";
+import network_security from "../../assets/services-images/network-security.jpg";
+import pentest from "../../assets/services-images/pen-testing.png";
 import responsive_web from "../../assets/services-images/responsive-web-design-image.jpg";
+import security_audit from "../../assets/services-images/security-audit.png";
+import security_awareness from "../../assets/services-images/security-awareness -training.jpg";
 import seo_optimization from "../../assets/services-images/seo-optimization-image.png";
+import vulnerabilities_assessment from "../../assets/services-images/vulnerability- assessment.png";
+import web_application from "../../assets/services-images/web-application-security.png";
 import web_performance from "../../assets/services-images/web-performance-optimization-image.png";
 import custom_web from "../../assets/services-images/website-image.jpg";
 import "./ServicesSection.css";
@@ -162,11 +166,11 @@ const ServicesSection = () => {
         </li>
       </ul>
       <h1>Cybersecurity Services</h1>
-      {/* First 3 items */}
+      {/* Cybersecurity Section */}
       <ul className="top-services">
         <li>
           <div className="services-section-info">
-            <img src={custom_web} alt="" />
+            <img src={pentest} alt="" />
             <div>
               <h3>Penetration Testing</h3>
             </div>
@@ -185,7 +189,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_2} alt="" />
+            <img src={security_awareness} alt="" />
             <div>
               <h3>Security Awareness Training</h3>
             </div>
@@ -205,7 +209,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_3} alt="" />
+            <img src={vulnerabilities_assessment} alt="" />
             <div>
               <h3>Vulnerability Assessment</h3>
             </div>
@@ -227,7 +231,7 @@ const ServicesSection = () => {
       <ul className="bottom-services">
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={security_audit} alt="" />
             <div>
               <h3>Security Audit</h3>
             </div>
@@ -248,7 +252,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={web_application} alt="" />
             <div>
               <h3>Web Application Security</h3>
             </div>
@@ -269,7 +273,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={network_security} alt="" />
             <div>
               <h3>Network Security</h3>
             </div>
