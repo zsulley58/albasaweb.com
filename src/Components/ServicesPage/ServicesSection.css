@@ -7,6 +7,10 @@
   background-color: #f7f8fa; /* Light background color */
 }
 
+h1 {
+  margin: 10px 0 30px 0;
+}
+
 /* Grid container for top and bottom services */
 .top-services,
 .bottom-services {

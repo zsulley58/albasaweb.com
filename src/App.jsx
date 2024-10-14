@@ -5,6 +5,7 @@ import AboutPage from "./Components/AboutPage/AboutPage";
 import Blogs from "./Components/Blogs/Blogs";
 import BlogsPage from "./Components/BlogsPage/BlogsPage";
 import Contact from "./Components/Contact/Contact";
+import ContactPage from "./Components/ContactPage/ContactPage";
 import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
@@ -110,6 +111,16 @@ const App = () => {
           }
         />
 
+        {/* Contact Us Page Route */}
+        <Route
+          path="/contact"
+          element={
+            <div>
+              <ContactPage />
+              <Footer />
+            </div>
+          }
+        />
         {/* Add other page routes as needed */}
       </Routes>
     </Router>
