@@ -1,9 +1,12 @@
 /* eslint-disable no-unused-vars */
 
 import React from "react";
-import blog_4 from "../../assets/blog-4.png";
+import cloud_security from "../../assets/services-images/cloud-security.jpg";
 import cms from "../../assets/services-images/cms-image.jpg";
+import compliance_risk from "../../assets/services-images/compliance- risk -management.jpg";
+import data_encryption from "../../assets/services-images/data-encryption-protection.jpg";
 import e_commerce from "../../assets/services-images/e-commerce-image.jpg";
+import incident_response from "../../assets/services-images/incident-response-forensics.png";
 import network_security from "../../assets/services-images/network-security.jpg";
 import pentest from "../../assets/services-images/pen-testing.png";
 import responsive_web from "../../assets/services-images/responsive-web-design-image.jpg";
@@ -293,7 +296,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={incident_response} alt="" />
             <div>
               <h3>Incident Response and Forensics</h3>
             </div>
@@ -313,7 +316,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={compliance_risk} alt="" />
             <div>
               <h3>Compliance and Risk Management</h3>
             </div>
@@ -333,7 +336,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={cloud_security} alt="" />
             <div>
               <h3>Cloud Security</h3>
             </div>
@@ -354,7 +357,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={data_encryption} alt="" />
             <div>
               <h3>Data Encryption and Protection</h3>
             </div>
