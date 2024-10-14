@@ -1,10 +1,15 @@
 /* eslint-disable no-unused-vars */
 
 import React from "react";
-import blog_1 from "../../assets/blog-1.png";
 import blog_2 from "../../assets/blog-2.png";
 import blog_3 from "../../assets/blog-3.png";
 import blog_4 from "../../assets/blog-4.png";
+import cms from "../../assets/services-images/cms-image.jpg";
+import e_commerce from "../../assets/services-images/e-commerce-image.jpg";
+import responsive_web from "../../assets/services-images/responsive-web-design-image.jpg";
+import seo_optimization from "../../assets/services-images/seo-optimization-image.png";
+import web_performance from "../../assets/services-images/web-performance-optimization-image.png";
+import custom_web from "../../assets/services-images/website-image.jpg";
 import "./ServicesSection.css";
 
 const ServicesSection = () => {
@@ -15,7 +20,7 @@ const ServicesSection = () => {
       <ul className="top-services">
         <li>
           <div className="services-section-info">
-            <img src={blog_1} alt="" />
+            <img src={custom_web} alt="" />
             <div>
               <h3>Custom Web Development</h3>
             </div>
@@ -35,7 +40,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_2} alt="" />
+            <img src={e_commerce} alt="" />
             <div>
               <h3>E-Commerce Development</h3>
             </div>
@@ -55,7 +60,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_3} alt="" />
+            <img src={responsive_web} alt="" />
             <div>
               <h3>Responsive Web Design</h3>
             </div>
@@ -79,7 +84,7 @@ const ServicesSection = () => {
       <ul className="bottom-services">
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={cms} alt="" />
             <div>
               <h3>Content Management System (CMS)</h3>
             </div>
@@ -99,7 +104,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={web_performance} alt="" />
             <div>
               <h3>Web Performance Optimization</h3>
             </div>
@@ -118,7 +123,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={seo_optimization} alt="" />
             <div>
               <h3>SEO Optimization</h3>
             </div>
@@ -138,7 +143,7 @@ const ServicesSection = () => {
         </li>
         <li>
           <div className="services-section-info">
-            <img src={blog_4} alt="" />
+            <img src={custom_web} alt="" />
             <div>
               <h3>Web Maintainance & Support</h3>
             </div>
@@ -161,7 +166,7 @@ const ServicesSection = () => {
       <ul className="top-services">
         <li>
           <div className="services-section-info">
-            <img src={blog_1} alt="" />
+            <img src={custom_web} alt="" />
             <div>
               <h3>Penetration Testing</h3>
             </div>
