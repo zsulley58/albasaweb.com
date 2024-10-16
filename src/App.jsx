@@ -16,6 +16,7 @@ import PortfoliosPage from "./Components/PortfoliosPage/PortfoliosPage";
 import Services from "./Components/Services/Services";
 import PenetrationTesting from "./Components/ServicesPage/CyberSecurity/PenetrationTesting/PenetrationTesting";
 import ServicesPage from "./Components/ServicesPage/ServicesPage";
+import CustomWebDevelopment from "./Components/ServicesPage/WebDevelopment/CustomWedDevelopment/CustomWebDevelopment";
 import Title from "./Components/Title/Title";
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer";
 
@@ -63,6 +64,11 @@ const App = () => {
         <Route
           path="/services/cybersecurity/penetration-testing"
           element={<PenetrationTesting />}
+        />
+        {/* Custom Web Development Page Route */}
+        <Route
+          path="/services/web-development/custom-web-development"
+          element={<CustomWebDevelopment />}
         />
         {/* Portfolio Page Route */}
         <Route path="/portfolio" element={<PortfoliosPage />} />
