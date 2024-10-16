@@ -66,30 +66,7 @@ const Navbar = () => {
                     E-commerce Development
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    to="/services/web-development/responsive-web-design"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Responsive Web Design
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/web-development/cms"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Content Management Systems (CMS)
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/web-development/web-performance-optimization"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Web Performance Optimization
-                  </NavLink>
-                </li>
+
                 <li>
                   <NavLink
                     to="/services/web-development/seo-optimization"
@@ -127,22 +104,7 @@ const Navbar = () => {
                     Security Awareness Training
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    to="/services/cybersecurity/vulnerability-assessment"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Vulnerability Assessment
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/cybersecurity/security-audits"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Security Audits
-                  </NavLink>
-                </li>
+
                 <li>
                   <NavLink
                     to="/services/cybersecurity/web-application-security"
@@ -151,44 +113,13 @@ const Navbar = () => {
                     Web Application Security
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    to="/services/cybersecurity/network-security"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Network Security
-                  </NavLink>
-                </li>
+
                 <li>
                   <NavLink
                     to="/services/cybersecurity/incident-response-forensics"
                     className={({ isActive }) => (isActive ? "active" : "")}
                   >
                     Incident Response and Forensics
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/cybersecurity/compliance-risk-management"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Compliance and Risk Management
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/cybersecurity/cloud-security"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Cloud Security
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/cybersecurity/data-encryption-protection"
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Data Encryption and Protection
                   </NavLink>
                 </li>
               </ul>

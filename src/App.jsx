@@ -14,6 +14,7 @@ import PodcastsPage from "./Components/PodcastsPage/PodcastsPage";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import PortfoliosPage from "./Components/PortfoliosPage/PortfoliosPage";
 import Services from "./Components/Services/Services";
+import PenetrationTesting from "./Components/ServicesPage/CyberSecurity/PenetrationTesting/PenetrationTesting";
 import ServicesPage from "./Components/ServicesPage/ServicesPage";
 import Title from "./Components/Title/Title";
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer";
@@ -28,7 +29,7 @@ const App = () => {
         <Route
           path="/"
           element={
-            <div>
+            <>
               <Hero />
               <div className="container">
                 <About setPlayState={setPlayState} />
@@ -49,80 +50,30 @@ const App = () => {
                 <Podcasts />
                 <Title subTitle="Contact Us" title="Get in touch" />
                 <Contact />
-                <Footer />
               </div>
               <VideoPlayer playState={playState} setPlayState={setPlayState} />
-            </div>
+            </>
           }
         />
-
         {/* About Page Route */}
-        <Route
-          path="/about"
-          element={
-            <div>
-              <AboutPage />
-              <Footer />
-            </div>
-          }
-        />
-
+        <Route path="/about" element={<AboutPage />} />
         {/* Service Page Route */}
+        <Route path="/services" element={<ServicesPage />} />
+        {/* Penetration Testing Page Route */}
         <Route
-          path="/services"
-          element={
-            <div>
-              <ServicesPage />
-              <Footer />
-            </div>
-          }
+          path="/services/cybersecurity/penetration-testing"
+          element={<PenetrationTesting />}
         />
-
         {/* Portfolio Page Route */}
-        <Route
-          path="/portfolio"
-          element={
-            <div>
-              <PortfoliosPage />
-              <Footer />
-            </div>
-          }
-        />
-
+        <Route path="/portfolio" element={<PortfoliosPage />} />
         {/* Blog Page Route */}
-        <Route
-          path="/blog"
-          element={
-            <div>
-              <BlogsPage />
-              <Footer />
-            </div>
-          }
-        />
-
+        <Route path="/blog" element={<BlogsPage />} />
         {/* Podcast Page Route */}
-        <Route
-          path="/podcast"
-          element={
-            <div>
-              <PodcastsPage />
-              <Footer />
-            </div>
-          }
-        />
-
+        <Route path="/podcast" element={<PodcastsPage />} />
         {/* Contact Us Page Route */}
-        <Route
-          path="/contact"
-          element={
-            <div>
-              <ContactPage />
-              <Footer />
-            </div>
-          }
-        />
-        {/* Add other page routes as needed */}
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

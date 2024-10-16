@@ -1,0 +1,136 @@
+/* ---- HERO SECTION STYLES ---- */
+.penetrationTesting-hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../../../../assets/services-images/pen-testing.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.penetrationTesting-hero-text {
+  max-width: 800px;
+}
+
+.penetrationTesting-hero-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.penetrationTesting-hero-text p {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 10px auto;
+  color: #54b7fd;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Penetration Testing SECTION CSS */
+.penetrationTestings-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.penetrationTestings-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.penetrationTestings-section h4 {
+  font-size: 1.5rem;
+  color: red;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.penetrationTestings-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.penetrationTestings-section strong {
+  color: #333;
+}
+
+.penetrationTestings-section ul,
+.penetrationTestings-section ol {
+  text-align: left;
+  margin: 2rem auto;
+  padding-left: 1.5rem;
+  max-width: 700px;
+}
+
+.penetrationTestings-section ul li,
+.penetrationTestings-section ol li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.penetrationTestings-section .divider {
+  width: 60%;
+  height: 2px;
+  background-color: #ddd;
+  margin: 2rem auto;
+}
+
+.penetrationTestings-section button.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.penetrationTestings-section button.btn:hover {
+  background-color: red;
+}
+
+.penetrationTestings-section img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .penetrationTestings-section {
+    padding: 1.5rem;
+  }
+
+  .penetrationTestings-section h2 {
+    font-size: 2rem;
+  }
+
+  .penetrationTestings-section h3 {
+    font-size: 1.75rem;
+  }
+
+  .penetrationTestings-section h4 {
+    font-size: 1.25rem;
+  }
+
+  .penetrationTestings-section p,
+  .penetrationTestings-section ul li,
+  .penetrationTestings-section ol li {
+    font-size: 1rem;
+  }
+}
