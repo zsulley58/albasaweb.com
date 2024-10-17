@@ -73,7 +73,7 @@ p a {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 15px;
-  background-color: #007bff; /* Default button color */
+  background-color: red;
   color: #fff;
   font-weight: 600;
   text-decoration: none;
