@@ -52,7 +52,7 @@ const Contact = () => {
           </li>
           <li>
             <img src={phone_icon} alt="" />
-            +1 123-456-7890
+            +233 503 089 660
           </li>
           <li>
             <img src={location_icon} alt="" />

@@ -1,21 +1,12 @@
 /* eslint-disable no-unused-vars */
 
 import React from "react";
-import cloud_security from "../../assets/services-images/cloud-security.jpg";
-import cms from "../../assets/services-images/cms-image.jpg";
-import compliance_risk from "../../assets/services-images/compliance- risk -management.jpg";
-import data_encryption from "../../assets/services-images/data-encryption-protection.jpg";
 import e_commerce from "../../assets/services-images/e-commerce-image.jpg";
 import incident_response from "../../assets/services-images/incident-response-forensics.png";
-import network_security from "../../assets/services-images/network-security.jpg";
 import pentest from "../../assets/services-images/pen-testing.png";
-import responsive_web from "../../assets/services-images/responsive-web-design-image.jpg";
-import security_audit from "../../assets/services-images/security-audit.png";
 import security_awareness from "../../assets/services-images/security-awareness -training.jpg";
 import seo_optimization from "../../assets/services-images/seo-optimization-image.png";
-import vulnerabilities_assessment from "../../assets/services-images/vulnerability- assessment.png";
 import web_application from "../../assets/services-images/web-application-security.png";
-import web_performance from "../../assets/services-images/web-performance-optimization-image.png";
 import custom_web from "../../assets/services-images/website-image.jpg";
 import "./ServicesSection.css";
 
@@ -65,69 +56,10 @@ const ServicesSection = () => {
             </a>
           </p>
         </li>
-        <li>
-          <div className="services-section-info">
-            <img src={responsive_web} alt="" />
-            <div>
-              <h3>Responsive Web Design</h3>
-            </div>
-          </div>
-          <p>
-            In today’s digital age, your website needs to perform flawlessly
-            across all devices. At ALBASA WEB, we offer Responsive Web Design
-            services that ensure your site looks great and functions perfectly,
-            whether your visitors are on a smartphone, tablet, or desktop. We
-            focus on creating a seamless experience, making it easy for your
-            users to engage with your content, no matter how they access it.
-            <br />
-            <a href="#" className="links btn">
-              Contact Us.
-            </a>
-          </p>
-        </li>
       </ul>
 
       {/* Remaining items */}
       <ul className="bottom-services">
-        <li>
-          <div className="services-section-info">
-            <img src={cms} alt="" />
-            <div>
-              <h3>Content Management System (CMS)</h3>
-            </div>
-          </div>
-          <p>
-            Managing your website shouldn't be a hassle. At ALBASA WEB, our
-            Content Management System (CMS) Development service provides you
-            with powerful, intuitive tools to easily manage your website’s
-            content. Whether you need to update information, add new pages, or
-            publish blog posts, our CMS solutions make it simple and efficient,
-            without the need for technical expertise.
-            <br />
-            <a href="#" className="links btn">
-              Contact Us.
-            </a>
-          </p>
-        </li>
-        <li>
-          <div className="services-section-info">
-            <img src={web_performance} alt="" />
-            <div>
-              <h3>Web Performance Optimization</h3>
-            </div>
-          </div>
-          <p>
-            A fast-loading website is essential for keeping your visitors
-            engaged and improving your search engine rankings. At ALBASA WEB,
-            our Web Performance Optimization service ensures your website runs
-            at its best, providing users with a smooth, fast, and responsive
-            experience that keeps them coming back.
-            <br />
-            <a href="#" className="links btn">
-              Contact Us.
-            </a>
-          </p>
-        </li>
         <li>
           <div className="services-section-info">
             <img src={seo_optimization} alt="" />
@@ -210,49 +142,10 @@ const ServicesSection = () => {
             </a>
           </p>
         </li>
-        <li>
-          <div className="services-section-info">
-            <img src={vulnerabilities_assessment} alt="" />
-            <div>
-              <h3>Vulnerability Assessment</h3>
-            </div>
-          </div>
-          <p>
-            Identifying vulnerabilities before they are exploited is key to
-            maintaining a secure environment. At ALBASA WEB, our Vulnerability
-            Assessment service is designed to evaluate your systems, networks,
-            and applications for weaknesses, providing you with the information
-            needed to proactively protect your business from cyber threats.
-            <a href="#" className="links btn">
-              Contact Us.
-            </a>
-          </p>
-        </li>
       </ul>
 
       {/* Remaining items */}
       <ul className="bottom-services">
-        <li>
-          <div className="services-section-info">
-            <img src={security_audit} alt="" />
-            <div>
-              <h3>Security Audit</h3>
-            </div>
-          </div>
-          <p>
-            A strong cybersecurity strategy begins with a thorough understanding
-            of your current security posture. At ALBASA WEB, our Security Audit
-            service provides an in-depth review of your systems, policies, and
-            practices to ensure that your organization meets the highest
-            standards of security. Our comprehensive audits help identify gaps,
-            assess risks, and recommend strategies to enhance your cybersecurity
-            resilience.
-            <br />
-            <a href="#" className="links btn">
-              Contact Us.
-            </a>
-          </p>
-        </li>
         <li>
           <div className="services-section-info">
             <img src={web_application} alt="" />
@@ -274,26 +167,7 @@ const ServicesSection = () => {
             </a>
           </p>
         </li>
-        <li>
-          <div className="services-section-info">
-            <img src={network_security} alt="" />
-            <div>
-              <h3>Network Security</h3>
-            </div>
-          </div>
-          <p>
-            In today’s connected world, network security is more important than
-            ever. At ALBASA WEB, our Network Security service is designed to
-            protect your network infrastructure from unauthorized access, data
-            breaches, and cyber attacks. We employ cutting-edge technologies and
-            best practices to ensure your network is secure, reliable, and
-            resilient against evolving threats.
-            <br />
-            <a href="#" className="links btn">
-              Contact Us.
-            </a>
-          </p>
-        </li>
+
         <li>
           <div className="services-section-info">
             <img src={incident_response} alt="" />
@@ -308,67 +182,6 @@ const ServicesSection = () => {
             investigate, and recover from security incidents, providing the
             expertise you need to respond effectively and understand the root
             cause of the incident.
-            <br />
-            <a href="#" className="links btn">
-              Contact Us.
-            </a>
-          </p>
-        </li>
-        <li>
-          <div className="services-section-info">
-            <img src={compliance_risk} alt="" />
-            <div>
-              <h3>Compliance and Risk Management</h3>
-            </div>
-          </div>
-          <p>
-            In today’s complex regulatory environment, organizations must meet
-            strict compliance standards while managing security risks
-            effectively. At ALBASA WEB, our Compliance and Risk Management
-            service helps you navigate regulatory requirements and build a
-            robust risk management framework that keeps your business protected
-            and compliant with industry standards.
-            <br />
-            <a href="#" className="links btn">
-              Contact Us.
-            </a>
-          </p>
-        </li>
-        <li>
-          <div className="services-section-info">
-            <img src={cloud_security} alt="" />
-            <div>
-              <h3>Cloud Security</h3>
-            </div>
-          </div>
-          <p>
-            Migrating to the cloud provides flexibility, scalability, and cost
-            savings, but it also introduces new security challenges. At ALBASA
-            WEB, our Cloud Security service is designed to help you protect your
-            cloud infrastructure, applications, and data from cyber threats. We
-            implement best practices and advanced technologies to ensure your
-            cloud environment is secure, compliant, and resilient against
-            attacks.
-            <br />
-            <a href="#" className="links btn">
-              Contact Us.
-            </a>
-          </p>
-        </li>
-        <li>
-          <div className="services-section-info">
-            <img src={data_encryption} alt="" />
-            <div>
-              <h3>Data Encryption and Protection</h3>
-            </div>
-          </div>
-          <p>
-            Protecting sensitive data is one of the most critical aspects of
-            cybersecurity. At ALBASA WEB, our Data Encryption and Protection
-            service ensures that your organization's data is safeguarded from
-            unauthorized access, both in transit and at rest. We implement
-            industry-leading encryption technologies and best practices to keep
-            your data private, secure, and compliant with regulatory standards.
             <br />
             <a href="#" className="links btn">
               Contact Us.
