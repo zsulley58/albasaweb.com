@@ -26,16 +26,31 @@ a {
 .btn {
   background: red;
   color: #fff;
-  padding: 14px 25px;
+  padding: 10px 25px;
   font-size: 16px;
-  border-radius: 30px;
+  border-radius: 10px;
   cursor: pointer;
-  border: 0;
-  outline: 0;
+  border: none;
+  outline: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.red-btn {
+  background: red;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, color 0.3s;
 }
 
 .btn img {
