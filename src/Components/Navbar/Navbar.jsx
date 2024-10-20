@@ -1,5 +1,3 @@
-// src/components/Navbar/Navbar.jsx
-
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/albasa-web-logo.png";
@@ -77,14 +75,19 @@ const Navbar = () => {
 
         {/* Our Services with Dropdown */}
         <li className="services-nav">
+          <NavLink
+            to="/services"
+            className={({ isActive }) => (isActive ? "active" : "")}
+            onClick={handleLinkClick}
+          >
+            Our Services
+          </NavLink>
           <button
             className="services-button"
             aria-haspopup="true"
             aria-expanded={dropdownOpen ? "true" : "false"}
             onClick={toggleDropdown}
-          >
-            Our Services
-          </button>
+          ></button>
           <div
             className={`services-dropdown ${dropdownOpen ? "open" : ""}`}
             aria-label="submenu"

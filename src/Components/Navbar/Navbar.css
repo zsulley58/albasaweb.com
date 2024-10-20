@@ -238,8 +238,8 @@ li .btn.dark-btn:hover {
   .services-button::after {
     content: "\25BC"; /* Down arrow */
     position: absolute;
-    right: 20px;
-    top: 50%;
+    right: 135px;
+    top: 0%;
     transform: translateY(-50%);
     transition: transform 0.3s;
   }
