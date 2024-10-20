@@ -1,9 +1,9 @@
 // src/components/Navbar/Navbar.jsx
 
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom"; // Import NavLink
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/albasa-web-logo.png";
-import close_icon from "../../assets/close-icon.png"; // Add a close icon for better UX
+import close_icon from "../../assets/close-icon.png";
 import menu_icon from "../../assets/menu-icon.png";
 import "./Navbar.css";
 
