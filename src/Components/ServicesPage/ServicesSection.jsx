@@ -31,7 +31,7 @@ const ServicesSection = () => {
             or a fully interactive web application, we deliver a solution that
             perfectly fits your vision.
             <br />
-            <a href="#" className="links btn">
+            <a href="/contact" className="links btn">
               Contact Us.
             </a>
           </p>
@@ -51,7 +51,7 @@ const ServicesSection = () => {
             store that is designed to convert visitors into loyal customers,
             while keeping your brand and goals at the center.
             <br />
-            <a href="#" className="links btn">
+            <a href="/contact" className="links btn">
               Contact Us.
             </a>
           </p>
@@ -75,7 +75,7 @@ const ServicesSection = () => {
             sure your business stands out and reaches potential customers
             effectively.
             <br />
-            <a href="#" className="links btn">
+            <a href="/contact" className="links btn">
               Contact Us.
             </a>
           </p>
@@ -94,7 +94,7 @@ const ServicesSection = () => {
             optimal condition, providing you with peace of mind so you can focus
             on growing your business.
             <br />
-            <a href="#" className="links btn">
+            <a href="/contact" className="links btn">
               Contact Us.
             </a>
           </p>
@@ -117,7 +117,7 @@ const ServicesSection = () => {
             to identify and address vulnerabilities before attackers can exploit
             them, giving you the confidence that your systems are secure.
             <br />
-            <a href="#" className="links btn">
+            <a href="/contact" className="links btn">
               Contact Us.
             </a>
           </p>
@@ -137,7 +137,7 @@ const ServicesSection = () => {
             reducing the risk of human error and enhancing your overall security
             posture.
             <br />
-            <a href="#" className="links btn">
+            <a href="/contact" className="links btn">
               Contact Us.
             </a>
           </p>
@@ -162,7 +162,7 @@ const ServicesSection = () => {
             maintain the trust of your users by implementing industry-leading
             security measures.
             <br />
-            <a href="#" className="links btn">
+            <a href="/contact" className="links btn">
               Contact Us.
             </a>
           </p>
@@ -183,7 +183,7 @@ const ServicesSection = () => {
             expertise you need to respond effectively and understand the root
             cause of the incident.
             <br />
-            <a href="#" className="links btn">
+            <a href="/contact" className="links btn">
               Contact Us.
             </a>
           </p>

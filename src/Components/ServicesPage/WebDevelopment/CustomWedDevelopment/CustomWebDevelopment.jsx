@@ -174,9 +174,9 @@ const CustomWebDevelopment = () => {
 
         <div className="divider"></div>
 
-        <button type="button" className="btn dark-btn">
-          Contact Us
-        </button>
+        <a href="/contact" className="btn dark-btn">
+          Contact Us.
+        </a>
 
         <p>
           Ready to transform your online presence? Get in touch with us to

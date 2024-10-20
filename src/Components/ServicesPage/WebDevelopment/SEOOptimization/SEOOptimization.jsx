@@ -198,9 +198,9 @@ const SEOOptimization = () => {
 
         <div className="divider"></div>
 
-        <button type="button" className="btn dark-btn">
-          Contact Us
-        </button>
+        <a href="/contact" className="btn dark-btn">
+          Contact Us.
+        </a>
 
         <p>
           Ready to enhance your online visibility? Get in touch with us to

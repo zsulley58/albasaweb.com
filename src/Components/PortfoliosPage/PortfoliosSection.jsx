@@ -7,7 +7,6 @@ import portfolio_3 from "../../assets/portfolio-images/portfolio-3.jpg";
 import portfolio_4 from "../../assets/portfolio-images/portfolio-4.jpg";
 import portfolio_5 from "../../assets/portfolio-images/portfolio-5.jpg";
 import portfolio_6 from "../../assets/portfolio-images/portfolio-6.jpg";
-import Contact from "../Contact/Contact";
 import "./PortfoliosSection.css";
 
 const PortfoliosSection = () => {
@@ -22,7 +21,7 @@ const PortfoliosSection = () => {
               <h3>Personal Portfolio Website</h3>
             </div>
           </div>
-          <a href="#" className="portfolio-links btn">
+          <a href="/contact" className="portfolio-links btn">
             Contact Us.
           </a>
         </li>
@@ -33,7 +32,7 @@ const PortfoliosSection = () => {
               <h3>E-commerce Website</h3>
             </div>
           </div>
-          <a href="#" className="portfolio-links btn">
+          <a href="/contact" className="portfolio-links btn">
             Contact Us.
           </a>
         </li>
@@ -44,7 +43,7 @@ const PortfoliosSection = () => {
               <h3>E-commerce Shopping Website</h3>
             </div>
           </div>
-          <a href="#" className="links btn">
+          <a href="/contact" className="links btn">
             Contact Us.
           </a>
         </li>
@@ -59,7 +58,7 @@ const PortfoliosSection = () => {
               <h3>Mobile App Development</h3>
             </div>
           </div>
-          <a href="#" className="portfolio-links btn">
+          <a href="/contact" className="portfolio-links btn">
             Contact Us.
           </a>
         </li>
@@ -70,7 +69,7 @@ const PortfoliosSection = () => {
               <h3>SEO Optimization</h3>
             </div>
           </div>
-          <a href="#" className="portfolio-links btn">
+          <a href="/contact" className="portfolio-links btn">
             Contact Us.
           </a>
         </li>
@@ -81,7 +80,7 @@ const PortfoliosSection = () => {
               <h3>Content Management Systems</h3>
             </div>
           </div>
-          <a href={<Contact />} className="portfolio-links btn">
+          <a href="/contact" className="portfolio-links btn">
             Contact Us.
           </a>
         </li>

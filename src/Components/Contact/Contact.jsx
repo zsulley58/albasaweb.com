@@ -69,21 +69,28 @@ const Contact = () => {
             type="text"
             name="name"
             id=""
-            placeholder="Enter your name"
+            placeholder="Please enter your name"
             required
           />
-          <label>Your name</label>
+          <label>Your number</label>
           <input
             type="tel"
             name="phone"
-            placeholder="Enter your mobile number"
+            placeholder="Please enter your mobile number"
+            required
+          />
+          <label>Your e-mail address</label>
+          <input
+            type="text"
+            name="e-mail"
+            placeholder="Please enter your e-mail address"
             required
           />
           <label>Write your messages here</label>
           <textarea
             name="message"
             rows="6"
-            placeholder="Enter your message"
+            placeholder="Please enter your message"
             required
           ></textarea>
           <button type="submit" className="btn dark-btn">

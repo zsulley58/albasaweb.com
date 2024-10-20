@@ -169,9 +169,9 @@ const PenetrationTesting = () => {
 
         <div className="divider"></div>
 
-        <button type="submit" className="btn dark-btn">
-          Contact Us
-        </button>
+        <a href="/contact" className="btn dark-btn">
+          Contact Us.
+        </a>
 
         <p>
           Ready to fortify your cybersecurity defenses? Get in touch with us to

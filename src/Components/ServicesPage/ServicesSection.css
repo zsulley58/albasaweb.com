@@ -35,7 +35,7 @@ h1 {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box; /* Ensure padding is included in total width/height */
+  box-sizing: border-box;
 }
 
 .services-section-info {
@@ -49,9 +49,9 @@ h1 {
 .services-section-info img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px; /* Smooth rounded corners */
+  border-radius: 8px;
   margin-bottom: 10px;
-  transition: transform 0.3s; /* Smooth hover zoom */
+  transition: transform 0.3s;
 }
 
 .services-section-info h3 {
@@ -60,14 +60,14 @@ h1 {
   text-align: center;
   font-weight: 600;
   margin: 0;
-  transition: color 0.3s; /* Hover effect transition */
+  transition: color 0.3s;
 }
 
 p {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
-  margin-top: auto; /* Push paragraph to the bottom */
+  margin-top: auto;
 }
 
 .links {
