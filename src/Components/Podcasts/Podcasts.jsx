@@ -11,41 +11,57 @@ import "./Podcasts.css";
 const Podcasts = () => {
   const slider = useRef();
   let tx = 0;
+  let totalSlides = 4; // Total number of slides (update if more slides are added)
 
   const slideForward = () => {
-    if (tx > -50) {
+    // When at the end, reset to beginning
+    if (tx <= -(totalSlides - 1) * 25) {
+      tx = 0;
+    } else {
       tx -= 25;
     }
+    slider.current.style.transition =
+      "transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)";
     slider.current.style.transform = `translateX(${tx}%)`;
   };
 
   const slideBackward = () => {
-    if (tx < 0) {
+    // When at the beginning, reset to the end
+    if (tx >= 0) {
+      tx = -(totalSlides - 1) * 25;
+    } else {
       tx += 25;
     }
+    slider.current.style.transition =
+      "transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)";
     slider.current.style.transform = `translateX(${tx}%)`;
   };
 
   return (
     <div className="podcasts">
-      <img src={next_icon} alt="" className="next-btn" onClick={slideForward} />
+      <img
+        src={next_icon}
+        alt="Next"
+        className="next-btn"
+        onClick={slideForward}
+      />
       <img
         src={back_icon}
-        alt=""
+        alt="Back"
         className="back-btn"
         onClick={slideBackward}
       />
-      <div className="slider">
+      <div className="podcast-slider">
         <ul ref={slider}>
           <li>
-            <div className="slide">
+            <div className="podcast-slide">
               <div className="podcast-info">
-                <img src={podcast_1} alt="" />
+                <img src={podcast_1} alt="Podcast 1" className="podcast-img" />
                 <div>
-                  <h3>What is Social Engineering?</h3>
+                  <h3 className="podcast-title">What is Social Engineering?</h3>
                 </div>
               </div>
-              <p>
+              <p className="podcast-description">
                 Social engineering is a manipulation technique used by
                 cybercriminals to deceive individuals into divulging
                 confidential information, performing specific actions, or
@@ -55,20 +71,22 @@ const Podcasts = () => {
                 to trick victims into making mistakes.
                 <br />
                 <a href="#" className="links">
-                  Click here to read listen to the full podcast.
+                  Click here to listen to the full podcast.
                 </a>
               </p>
             </div>
           </li>
           <li>
-            <div className="slide">
+            <div className="podcast-slide">
               <div className="podcast-info">
-                <img src={podcast_2} alt="" />
+                <img src={podcast_2} alt="Podcast 2" className="podcast-img" />
                 <div>
-                  <h3>Securing Your Web Applications</h3>
+                  <h3 className="podcast-title">
+                    Securing Your Web Applications
+                  </h3>
                 </div>
               </div>
-              <p>
+              <p className="podcast-description">
                 Securing your web applications involves implementing strategies
                 and practices to protect your web applications from unauthorized
                 access, data breaches, and cyberattacks. Given that web
@@ -77,39 +95,43 @@ const Podcasts = () => {
                 robust security measures from the development phase to
                 deployment and beyond. <br />
                 <a href="#" className="links">
-                  Click here to read listen to the full podcast.
+                  Click here to listen to the full podcast.
                 </a>
               </p>
             </div>
           </li>
           <li>
-            <div className="slide">
+            <div className="podcast-slide">
               <div className="podcast-info">
-                <img src={podcast_3} alt="" />
+                <img src={podcast_3} alt="Podcast 3" className="podcast-img" />
                 <div>
-                  <h3>Why Is My System Running Slow?</h3>
+                  <h3 className="podcast-title">
+                    Why Is My System Running Slow?
+                  </h3>
                 </div>
               </div>
-              <p>
+              <p className="podcast-description">
                 Your system may be running slow for several reasons, and
                 identifying the root cause can help you improve its performance.
                 Here are some common reasons why your system might be sluggish:
                 <br />
                 <a href="#" className="links">
-                  Click here to read listen to the full podcast.
+                  Click here to listen to the full podcast.
                 </a>
               </p>
             </div>
           </li>
           <li>
-            <div className="slide">
+            <div className="podcast-slide">
               <div className="podcast-info">
-                <img src={podcast_4} alt="" />
+                <img src={podcast_4} alt="Podcast 4" className="podcast-img" />
                 <div>
-                  <h3>Emerging Cybersecurity Threats</h3>
+                  <h3 className="podcast-title">
+                    Emerging Cybersecurity Threats
+                  </h3>
                 </div>
               </div>
-              <p>
+              <p className="podcast-description">
                 Emerging cybersecurity threats refer to the latest and evolving
                 tactics used by cybercriminals to exploit vulnerabilities in
                 digital systems, networks, and data. As technology advances,
@@ -118,7 +140,7 @@ const Podcasts = () => {
                 emerging cybersecurity threats:
                 <br />
                 <a href="#" className="links">
-                  Click here to read listen to the full podcast.
+                  Click here to listen to the full podcast.
                 </a>
               </p>
             </div>

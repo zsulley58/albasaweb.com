@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import arrow_down from "../../assets/arrow-down.png";
 import white_arrow from "../../assets/white-arrow.png";
 import Blogs from "../Blogs/Blogs";
@@ -87,9 +88,11 @@ const AboutPage = () => {
             efficiency and innovation.
           </li>
         </ul>
-        <button className="btn dark-btn">
-          Get your Quote here <img src={white_arrow} alt="Get your Quote" />
-        </button>
+        <Link to="/contact">
+          <button className="btn dark-btn">
+            Get your Quote here <img src={white_arrow} alt="Get your Quote" />
+          </button>
+        </Link>
       </section>
       <section className="bottom-about container">
         <Portfolio />
